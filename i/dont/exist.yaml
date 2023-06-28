@@ -1,0 +1,6 @@
+resource "aws_ssm_parameter" "prod-flywheel-fetcher-producer-chunks-42b" {
+  name  = "prod-flywheel-fetcher-producer-chunks"
+  type  = "String"
+  value = "REDACTED-BY-FIREFLY:f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b:sha256"
+}
+
